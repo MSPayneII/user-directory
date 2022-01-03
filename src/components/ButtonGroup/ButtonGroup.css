@@ -1,0 +1,35 @@
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 53.75rem;
+  margin: 0 auto;
+}
+
+.prev-btn,
+.next-btn {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+.crud-btn {
+  width: 4.3125rem;
+  height: 2.25rem;
+  background-color: #55a4d5;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.crud-btn:not(:last-child) {
+  margin-right: 1.1875rem;
+}
+
+.prev-btn,
+.next-btn,
+.crud-btn {
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}

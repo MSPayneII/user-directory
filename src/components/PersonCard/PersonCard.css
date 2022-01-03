@@ -1,0 +1,45 @@
+.person-card {
+  background-color: #ebebeb;
+  width: 53.75rem;
+  height: 25rem;
+  margin: 5.75rem auto 0.75rem auto;
+}
+
+.card-number {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
+  padding: 0.5rem 1rem 0 0;
+}
+
+.person-card-content {
+  text-align: left;
+  padding-left: 4.1875rem;
+}
+
+.person-card-title {
+  font-size: 2rem;
+  text-decoration: underline;
+  text-decoration-color: #55a4d5;
+  margin-bottom: 2.0625rem;
+}
+
+.person-details {
+  margin-bottom: 2.375rem;
+}
+.detail-title {
+  font-weight: 700;
+}
+
+.detail:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.fav-movies-header,
+.movie-item:not(:last-child) {
+  margin-bottom: 0.4rem;
+}
+
+.movie-list {
+  padding-left: 4rem;
+}
