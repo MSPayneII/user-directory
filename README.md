@@ -26,6 +26,10 @@ This was a hands-on React project provided by the [Bright Paths Program](https:/
 
 - The user can scroll through and view individual person cards by either clicking the "pervious" and "next" buttons.
 
+## TBD
+
+- Reading, Updating, Deleting users
+
 ## Author
 
 👤 **Michael Payne**
